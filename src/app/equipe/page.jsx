@@ -65,7 +65,7 @@ function Staff() {
               {filteredStaff.map((member, i) => (
               <div className={`${styles.staffItem} spawnCard`}  key={i} style={{ animationDelay: `${i * 0.19}s` }}>
                   <div className={styles.staffImage}>
-                    <Image src={member.image} alt="staff-item" width={140} height={140} className={styles.image} loading="eager" />
+                    <Image src={member.image} alt="staff-item" width={140} height={140} className={styles.image} loading="lazy" />
                   </div>
 
                   <div className={styles.staffInfo}>

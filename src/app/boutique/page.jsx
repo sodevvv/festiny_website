@@ -38,7 +38,7 @@ function Boutique() {
           {filteredItems.map((item, i) => (
           <div className={`${styles.boutiqueItem} spawnCard`}  key={i} style={{ animationDelay: `${i * 0.19}s` }}>
               <div className={styles.boutiqueImage}>
-                <Image src={item.image} alt="boutique-item" width={140} height={140} className={styles.image} loading="eager" />
+                <Image src={item.image} alt="boutique-item" width={140} height={140} className={styles.image} loading="lazy" />
               </div>
 
               <div className={styles.boutiqueInfo}>

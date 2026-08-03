@@ -26,7 +26,7 @@ export const metadata = {
     "communauté FiveM",
   ],
   alternates: {
-    canonical: "https://www.festiny.fr",
+    canonical: "https://festiny.netlify.app",
   },
   openGraph: {
     title: "Festiny | Rejoindre un serveur de roleplay unique",
@@ -57,8 +57,8 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "Festiny",
-              url: "https://www.festiny.fr",
-              logo: "https://www.festiny.fr/logo.png",
+              url: "https://festiny.netlify.app",
+              logo: "https://festiny.netlify.app/logo.png",
               description: "Envie de rejoindre un serveur unique ? Festiny est le meilleur endroit pour faire du roleplay de qualité.",
               sameAs: [
                 "https://twitter.com/",

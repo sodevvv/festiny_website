@@ -9,12 +9,12 @@ export const metadata = {
         "Serveur RolePlay",
     ],
     alternates: {
-        canonical: "https://www.festiny.fr/equipe",
+        canonical: "https://festiny.netlify.app/equipe",
     },
     openGraph: {
         title: "Festiny | Rejoindre un serveur de roleplay unique",
         description: "Découvrez l'equipe d'administration de notre serveur de roleplay",
-        url: "https://www.festiny.fr/equipe",
+        url: "https://festiny.netlify.app/equipe",
         type: "website",
     },
 };

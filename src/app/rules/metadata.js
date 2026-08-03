@@ -18,12 +18,12 @@ export const metadata = {
         "FiveM RP",
     ],
     alternates: {
-        canonical: "https://www.festiny.fr/rules",
+        canonical: "https://festiny.netlify.app/rules",
     },
     openGraph: {
         title: "Festiny | Rejoindre un serveur de roleplay unique",
         description: "Découvrez les règles et réglementations de notre serveur de roleplay.",
-        url: "https://www.festiny.fr/rules",
+        url: "https://festiny.netlify.app/rules",
         type: "website",
     },
 };

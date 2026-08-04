@@ -8,40 +8,48 @@ const staffMembers = [
     name: "So",
     image: "/staff/so.png",
     rank: "Owner & Developer",
+    height: 140,
   },
   {
     name: "Tyx",
     image: "/staff/tyx.png",
     rank: "Owner & Developer",
+    height: 140,
   },
   {
     name: "SzX",
     image: "/staff/default.png",
     rank: "Owner",
+    height: 140,
   },
 
   {
     name: "jifuuu",
-    image: "/staff/default.png",
+    image: "/staff/jiffu.png",
+    height: 140,
     rank: "Owner",
+    height: 140,
   },
 
   {
     name: "Stricker",
-    image: "/staff/default.png",
+    image: "/staff/stricker.png",
     rank: "Co-Owner",
+    height: 90,
   },
 
   {
     name: "ℜσb͢єяτ",
-    image: "/staff/default.png",
+    image: "/staff/robert.png",
     rank: "Superviseur",
+    height: 140,
   },
 
   {
     name: "arthosure",
-    image: "/staff/default.png",
+    image: "/staff/arthosure.png",
     rank: "Staff Festiny",
+    height: 140,
   }
 
 ];
@@ -65,7 +73,7 @@ function Staff() {
               {filteredStaff.map((member, i) => (
               <div className={`${styles.staffItem} spawnCard`}  key={i} style={{ animationDelay: `${i * 0.19}s` }}>
                   <div className={styles.staffImage}>
-                    <Image src={member.image} alt="staff-item" width={140} height={140} className={styles.image} loading="lazy" />
+                    <Image src={member.image} alt="staff-item" width={140} height={140} className={styles.image} loading="lazy" style={{ height: member.height }} />
                   </div>
 
                   <div className={styles.staffInfo}>

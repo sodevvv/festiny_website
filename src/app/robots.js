@@ -4,6 +4,6 @@ export default function robots() {
             userAgent: "*",
             allow: "/",
         },
-        sitemap: "https://festiny.netlify.app/sitemap.xml",
+        sitemap: "https://festiny.netlify.app/sitemap.js",
     };
 }
